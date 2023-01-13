@@ -11,12 +11,13 @@
     box-sizing: border-box;
 }
 
-html,
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
+    min-height: 100vmin;
+    padding: 1rem;
     font-size: 15px;
     font-family: "Outfit";
     background-color: var(--Light-gray);
@@ -52,11 +53,11 @@ body {
     color: var(--Grayish-blue);
 }
 
-.attribution {
+footer {
     margin-top: 2rem;
     font-size: 11px;
     text-align: center;
 }
-.attribution a {
+footer a {
     color: hsl(228, 45%, 44%);
 }
